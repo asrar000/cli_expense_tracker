@@ -19,24 +19,22 @@ Designed with a clean, modular architecture similar to real-world backend tools.
 
 ## 📁 Project Structure
 
+```text
 .
 ├── tracker/
-│ ├── init.py
-│ ├── main.py
-│ ├── cli.py
-│ ├── service.py
-│ ├── storage.py
-│ ├── models.py
-│ ├── utils.py
-│ └── logger.py
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── cli.py
+│   ├── service.py
+│   ├── storage.py
+│   ├── models.py
+│   ├── utils.py
+│   └── logger.py
 ├── data/
-│ └── expenses.json
+│   └── expenses.json
 ├── logs/
-│ └── tracker.log
+│   └── tracker.log
 └── README.md
-
-
----
 
 ## 🛠 Requirements
 
