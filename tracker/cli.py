@@ -2,6 +2,26 @@ import argparse
 from tracker.service import add_expense, list_expenses, summary
 
 def main():
+    """
+    Entry point for the Expense Tracker CLI.
+
+    This function:
+    - Defines all CLI commands and arguments
+    - Parses user input
+    - Calls the appropriate service-layer function
+    - Prints formatted results to stdout
+
+    Commands:
+    - add:
+        Adds a new expense record.
+    - list:
+        Lists existing expenses with optional filters.
+    - summary:
+        Displays aggregated expense data for a given month.
+
+    Any unhandled exception is caught and displayed as a clean
+    error message without a stack trace.
+    """
     parser = argparse.ArgumentParser(prog="tracker")
     sub = parser.add_subparsers(dest="command")
 
