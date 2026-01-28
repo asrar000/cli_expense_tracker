@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "expenses": [
+    {
+      "id": "EXP-20260128-0001",
+      "date": "2026-01-25",
+      "category": "transport",
+      "amount": 80.0,
+      "currency": "BDT",
+      "note": "Rickshaw",
+      "created_at": "2026-01-28T10:38:02"
+    },
+    {
+      "id": "EXP-20260128-0002",
+      "date": "2026-01-26",
+      "category": "food",
+      "amount": 250.5,
+      "currency": "BDT",
+      "note": "Lunch",
+      "created_at": "2026-01-28T10:38:31"
+    },
+    {
+      "id": "EXP-20260128-0003",
+      "date": "2026-01-26",
+      "category": "rent",
+      "amount": 400.0,
+      "currency": "BDT",
+      "note": "Room rent",
+      "created_at": "2026-01-28T10:38:31"
+    }
+  ]
+}
